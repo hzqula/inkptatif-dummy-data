@@ -1,0 +1,172 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #0c2a4d;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.judul {
+  color: rgb(235, 241, 239);
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 80px;
+  gap: 50px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn-logout {
+  background-color: #3886b9;
+  margin-right: 200px;
+  color: #0c2a4d;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-logout .font {
+  color: #fdfbfb;
+  background-color: #3886b9;
+  border-style: none;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.black-title {
+  color: #0c2a4d;
+  font-size: 30px;
+  margin: 0;
+}
+
+.blue-title {
+  color: rgb(42, 136, 212);
+  font-size: 30px;
+  margin: 0;
+}
+
+.j1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.title-container {
+  display: flex;
+  gap: 200px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.j3,
+.j4 {
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.search-container {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.search-bar {
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Adjust border style as needed */
+  border-radius: 4px; /* Adjust border-radius as needed */
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px; /* Adjust margin as needed */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  /* Adjust width as needed */
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.student-photo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.student-name {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.student-nim {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-sudah,
+.btn-detail {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-sudah {
+  background-color: #28a745; /* Adjust color as needed */
+  color: #fff;
+}
+
+.btn-detail {
+  background-color: #007bff; /* Adjust color as needed */
+  color: #fff;
+}
